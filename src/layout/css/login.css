@@ -1,0 +1,75 @@
+.login-background {
+    background: linear-gradient(to bottom, #6db3f2, #1e69de);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.weather-icon {
+    font-size: 3rem;
+    color: #1e69de;
+}
+
+.btn-custom {
+    background-color: #1e69de;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #155a9a;
+}
+.Btn {
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, #7fbfc5, #1d6f7f, #0a7773, #0a6e77,#ffd277,#77530a);
+    background-size: 250%;
+    background-position: left;
+    color: #48b9cc;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: 1s;
+    overflow: hidden;
+}
+
+.Btn::before {
+    position: absolute;
+    content: "Registrate";
+    color: #62a9ed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    height: 90%;
+    border-radius: 8px;
+    transition-duration: 1s;
+    background-color: rgba(0, 0, 0, 0.842);
+    background-size: 200%;
+}
+
+.Btn:hover {
+    background-position: right;
+    transition-duration: 1s;
+}
+
+.Btn:hover::before {
+    background-position: right;
+    transition-duration: 1s;
+}
+
+.Btn:active {
+    transform: scale(0.95);
+}

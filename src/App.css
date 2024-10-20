@@ -1,0 +1,124 @@
+body{
+  background-color: #232220;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+.sesion{
+  width: 50px;
+  height: 50px;
+  background-image: url("./layout/img/Ellipse 33.svg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+.iconLocation{
+  width: 30px;
+}
+.locarion{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.05px;
+  text-align: left;
+
+}
+.weather-container {
+  display: flex;
+  flex-direction: row;
+}
+.bg-clear, .bg-cloudy {
+  height: auto;
+  width: 100%;
+  justify-content: center;
+  color: white;
+}
+.bg-clear{
+  background-color: #d69e36;
+}
+.bg-cloudy{
+  height: auto;
+  background-image: url("./layout/img/nublado.jpg");
+  background-size: auto;
+  background-position: center;
+}
+.font-temp{
+  font-size: 40px;
+}
+.desktop-only{
+  display: none;
+}
+.bg-item-cloud{
+  background-color: rgba(64, 59, 69, 0.58);
+  padding: 10px;
+  border-radius: 20px;
+}
+.bg-iten-clear{
+  background-color: #f5b747;
+  padding: 10px;
+  border-radius: 20px;
+}
+.fontItem{
+  font-size: 50px !important;
+}
+.h0{
+  height: 1px;
+}
+.spanImagen{
+  position: relative;
+  top: 107px;
+  color: black;
+}
+.nivelClima{
+  position: relative;
+  bottom: 16%;
+}
+.icon3{
+  font-size: 20px !important;
+}
+
+@media (max-width: 430px) {
+  .iconClima{
+    width: 200px;
+    height: 200px;
+  }
+  .textJusti{
+    text-align: center;
+  }
+  .desktop-only{
+    display: block;
+  }
+  .mobile-only{
+    display: none;
+  }
+}
+.imagen1, .imagen2, .imagen3, .imagen4{
+  height: 108px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin: 5px;
+}
+.imagen1{
+  background-image: url("./layout/img/imagen1.png");
+}
+.imagen2{
+  background-image: url("./layout/img/imagen2.png");
+}
+.imagen3{
+  background-image: url("./layout/img/imagen3.png");
+}
+.imagen4{
+  background-image: url("./layout/img/imagen4.png");
+}
+@media (min-width: 910px) {
+  .iconClima{
+    width: 316px;
+    height: 316px;
+  }
+  .textJusti{
+    text-align: justify;
+  }
+  .mobile-only{
+    display: block;
+  }
+
+}

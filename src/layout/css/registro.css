@@ -1,0 +1,44 @@
+.form-background {
+    background: linear-gradient(to bottom, #ffeb3b, #ffc107);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.weatherr-icon {
+    font-size: 3rem;
+    color: #ff9800;
+}
+
+.btn-custom {
+    background-color: #ff9800;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #e65100;
+}
+
+.text-title {
+    color: #ff5722;
+}
+
+.btn-Volver {
+    background-color: #ff5722;
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.btn-Volver:hover {
+    background-color: #e64a19;
+}
